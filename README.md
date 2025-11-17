@@ -1,7 +1,7 @@
 # Performance Testing of REST APIs using Apache JMeter
 
 This project demonstrates Load, Stress, and Scalability testing on a public REST API 
-(https://reqres.in/api/users) using Apache JMeter.
+(https://dummyjson.com/products/{id}) using Apache JMeter.
 
 ## 🚀 What I Performed
 - Designed and executed Load Test (100 users), Stress Test (500 users), and Scalability Tests.
@@ -16,4 +16,3 @@ This project demonstrates Load, Stress, and Scalability testing on a public REST
 - Response Assertions
 - HTML Report Dashboard
 
-## 📁 Project Structure
