@@ -1,0 +1,105 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1763384090646,641,API_Test,200,OK,Thread Group 1-2,text,true,,2595,126,5,5,https://dummyjson.com/products/1,640,0,526
+1763384090834,657,API_Test,200,OK,Thread Group 1-3,text,true,,2572,126,5,5,https://dummyjson.com/products/2,656,0,338
+1763384090581,1019,API_Test,404,Not Found,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1086,127,4,4,https://dummyjson.com/products/id,1019,0,705
+1763384091035,795,API_Test,200,OK,Thread Group 1-4,text,true,,2528,126,5,5,https://dummyjson.com/products/3,795,0,474
+1763384091427,444,API_Test,200,OK,Thread Group 1-6,text,true,,2492,126,4,4,https://dummyjson.com/products/5,443,0,139
+1763384091625,438,API_Test,404,Not Found,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1090,127,4,4,https://dummyjson.com/products/id,438,0,123
+1763384091826,814,API_Test,200,OK,Thread Group 1-8,text,true,,2594,126,6,6,https://dummyjson.com/products/1,813,0,531
+1763384092225,446,API_Test,200,OK,Thread Group 1-10,text,true,,2529,126,5,5,https://dummyjson.com/products/3,445,0,137
+1763384092025,744,API_Test,200,OK,Thread Group 1-9,text,true,,2567,126,4,4,https://dummyjson.com/products/2,743,0,450
+1763384092423,561,API_Test,200,OK,Thread Group 1-11,text,true,,2483,126,4,4,https://dummyjson.com/products/4,561,0,263
+1763384092625,428,API_Test,200,OK,Thread Group 1-12,text,true,,2500,126,4,4,https://dummyjson.com/products/5,424,0,127
+1763384093024,435,API_Test,200,OK,Thread Group 1-14,text,true,,2602,126,5,5,https://dummyjson.com/products/1,434,0,287
+1763384093816,481,API_Test,200,OK,Thread Group 1-18,text,true,,2501,126,8,8,https://dummyjson.com/products/5,481,0,162
+1763384094212,196,API_Test,200,OK,Thread Group 1-20,text,true,,2597,126,7,7,https://dummyjson.com/products/1,195,0,127
+1763384094016,424,API_Test,404,Not Found,Thread Group 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1086,127,7,7,https://dummyjson.com/products/id,424,0,120
+1763384093427,1056,API_Test,200,OK,Thread Group 1-16,text,true,,2532,126,6,6,https://dummyjson.com/products/3,1055,0,541
+1763384093217,1280,API_Test,200,OK,Thread Group 1-15,text,false,"The operation lasted too long: It took 1,280 milliseconds, but should not have lasted longer than 1,200 milliseconds.",2573,126,5,5,https://dummyjson.com/products/2,1279,0,676
+1763384093617,1284,API_Test,200,OK,Thread Group 1-17,text,false,"The operation lasted too long: It took 1,284 milliseconds, but should not have lasted longer than 1,200 milliseconds.",2477,126,6,6,https://dummyjson.com/products/4,1283,0,733
+1763384092827,2613,API_Test,404,Not Found,Thread Group 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1089,127,8,8,https://dummyjson.com/products/id,2613,0,675
+1763384094415,1050,API_Test,200,OK,Thread Group 1-21,text,true,,2577,126,7,7,https://dummyjson.com/products/2,1050,0,640
+1763384094612,1007,API_Test,200,OK,Thread Group 1-22,text,true,,2526,126,7,7,https://dummyjson.com/products/3,1007,0,623
+1763384095014,763,API_Test,200,OK,Thread Group 1-24,text,true,,2497,126,6,6,https://dummyjson.com/products/5,762,0,451
+1763384094815,1029,API_Test,200,OK,Thread Group 1-23,text,true,,2491,126,6,6,https://dummyjson.com/products/4,1029,0,531
+1763384096014,420,API_Test,200,OK,Thread Group 1-29,text,true,,2489,126,8,8,https://dummyjson.com/products/4,419,0,122
+1763384095412,1045,API_Test,200,OK,Thread Group 1-26,text,true,,2592,126,7,7,https://dummyjson.com/products/1,1045,0,711
+1763384095218,1271,API_Test,404,Not Found,Thread Group 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1095,127,6,6,https://dummyjson.com/products/id,1271,0,724
+1763384095613,1020,API_Test,200,OK,Thread Group 1-27,text,true,,2573,126,6,6,https://dummyjson.com/products/2,1020,0,517
+1763384096812,440,API_Test,200,OK,Thread Group 1-33,text,true,,2581,126,8,8,https://dummyjson.com/products/2,439,0,122
+1763384096211,1175,API_Test,200,OK,Thread Group 1-30,text,true,,2495,126,7,7,https://dummyjson.com/products/5,1175,0,618
+1763384096413,1159,API_Test,404,Not Found,Thread Group 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1085,127,7,7,https://dummyjson.com/products/id,1159,0,739
+1763384096611,1069,API_Test,200,OK,Thread Group 1-32,text,true,,2596,126,7,7,https://dummyjson.com/products/1,1068,0,721
+1763384097007,714,API_Test,200,OK,Thread Group 1-34,text,true,,2524,126,6,6,https://dummyjson.com/products/3,714,0,430
+1763384097410,423,API_Test,200,OK,Thread Group 1-36,text,true,,2504,126,6,6,https://dummyjson.com/products/5,422,0,120
+1763384097209,1036,API_Test,200,OK,Thread Group 1-35,text,true,,2490,126,7,7,https://dummyjson.com/products/4,1035,0,519
+1763384098006,432,API_Test,200,OK,Thread Group 1-39,text,true,,2570,126,7,7,https://dummyjson.com/products/2,432,0,122
+1763384097806,689,API_Test,200,OK,Thread Group 1-38,text,true,,2597,126,6,6,https://dummyjson.com/products/1,688,0,452
+1763384098206,437,API_Test,200,OK,Thread Group 1-40,text,true,,2533,126,6,6,https://dummyjson.com/products/3,436,0,125
+1763384098405,428,API_Test,200,OK,Thread Group 1-41,text,true,,2485,126,6,6,https://dummyjson.com/products/4,427,0,117
+1763384097608,1329,API_Test,404,Not Found,Thread Group 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1085,127,5,5,https://dummyjson.com/products/id,1329,0,704
+1763384098608,452,API_Test,200,OK,Thread Group 1-42,text,true,,2500,126,5,5,https://dummyjson.com/products/5,452,0,146
+1763384099205,429,API_Test,200,OK,Thread Group 1-45,text,true,,2574,126,7,7,https://dummyjson.com/products/2,428,0,120
+1763384099008,652,API_Test,200,OK,Thread Group 1-44,text,true,,2591,126,6,6,https://dummyjson.com/products/1,651,0,433
+1763384099404,1169,API_Test,200,OK,Thread Group 1-46,text,true,,2526,126,8,8,https://dummyjson.com/products/3,1169,0,538
+1763384100002,580,API_Test,404,Not Found,Thread Group 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1088,127,7,7,https://dummyjson.com/products/id,580,0,275
+1763384099801,1060,API_Test,200,OK,Thread Group 1-48,text,true,,2495,126,6,6,https://dummyjson.com/products/5,1060,0,537
+1763384100199,670,API_Test,200,OK,Thread Group 1-50,text,true,,2593,126,5,5,https://dummyjson.com/products/1,670,0,445
+1763384099600,1303,API_Test,200,OK,Thread Group 1-47,text,false,"The operation lasted too long: It took 1,303 milliseconds, but should not have lasted longer than 1,200 milliseconds.",2484,126,4,4,https://dummyjson.com/products/4,1302,0,729
+1763384095814,8285,API_Test,200,OK,Thread Group 1-28,text,false,"The operation lasted too long: It took 8,285 milliseconds, but should not have lasted longer than 1,200 milliseconds.",2526,126,3,3,https://dummyjson.com/products/3,8285,0,7678
+1763384091228,21475,API_Test,200,OK,Thread Group 1-5,text,false,"The operation lasted too long: It took 21,475 milliseconds, but should not have lasted longer than 1,200 milliseconds.",2487,126,2,2,https://dummyjson.com/products/4,21475,0,21162
+1763384098814,22284,API_Test,404,Not Found,Thread Group 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[200]]]
+
+/",1091,127,1,1,https://dummyjson.com/products/id,22284,0,21674
